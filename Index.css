@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(217, 54%, 11%); 
+    display: flex;
+    justify-content: center;
+} 
+
+main{ 
+    padding: 20px;
+    background: hsl(216, 50%, 16%); 
+    max-width: 18em; 
+    margin-top: 3rem; 
+    border-radius: 10px;  
+    line-height: 25px;
+}  
+
+.imgs{
+    background-image: url(./images/image-equilibrium.jpg);  
+    background-repeat: no-repeat;
+    border-radius: 20px; 
+    border: none;  
+    display: block;   
+    width: 18rem; 
+    height: 18rem; 
+    background-size: 100%;  
+    background-color: hsl(178, 100%, 50%); 
+}  
+
+.imgs:hover{
+    cursor: pointer; 
+    mix-blend-mode: hard-light;
+}
+
+
+h1{
+    color: hsl(0, 0%, 100%); 
+    padding: 3px;  
+    padding-top: 20px;
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 600;
+} 
+
+p{
+    color: hsl(215, 51%, 70%);  
+    padding: 3px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 400; 
+} 
+
+.cube-img{
+    max-width: 100%;  
+    border-radius: 20px;  
+    display: block;  
+}
+
+.avater{  
+    padding: 2px;
+    margin-top: 10px;
+    max-width: 2rem;   
+    overflow: none;
+    border-radius: 50%; 
+    border-style: 5px solid white;  
+    background-color: white;
+} 
+
+.eth{
+    color: hsl(178, 100%, 50%); 
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 300;
+} 
+
+.days{
+    color:  hsl(215, 51%, 70%);  
+    padding: 3px; 
+    font-weight: 300;
+} 
+
+hr{
+    background: hsl(215, 32%, 27%); 
+    padding: 1px; 
+    margin-top: 2px;  
+} 
+
+.jules{
+    color: white; 
+}  
+
+.jules:hover{
+    cursor: pointer; 
+    color: hsl(178, 100%, 50%); 
+    transition: 2s;
+}
+
+.eye{
+    max-width: 18rem;  
+    border-radius: 20px;  
+    opacity: 1%;
+}   
+
+.eye:hover{
+    opacity: 90%;
+} 
+ 
+h1:hover{ 
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer; 
+    transition: 2s;
+}
